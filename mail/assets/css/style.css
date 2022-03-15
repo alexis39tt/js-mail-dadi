@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 48px;
+}
+
+body{
+    color: white;
+    background-color: rgb(20, 20, 20);
+}
+
+.container{
+    width: 55%;
+    margin: auto;
+    padding: 100px 0;
+    text-align: center;
+}
+
+input{
+    background: none;
+    border: 5px solid white;
+    border-radius: 5px;
+    color: white;
+    padding: 5px;
+    outline: none;
+}
+
+input[type=text]{
+    width: 100%;
+    font-size: 1rem;
+}
+
+input[type=button]{
+    display: block;
+    margin: 50px 0;
+    font-size: 0.5rem;
+    cursor: pointer;
+}
+
+input[type=button]:hover{
+    background: rgb(37, 37, 37);;
+}
+
+.textcontainer h1{
+    font-family: 'Courier New', Courier, monospace;
+}
