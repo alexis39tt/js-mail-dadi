@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 48px;
+}
+
+body{
+    color: white;
+    background-color: rgb(20, 20, 20);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1{
+    font-size: 1.3rem;
+}
+
+.container{
+    width: 55%;
+    margin: auto;
+    padding: 100px 0;
+    text-align: center;
+}
+
+input[type=button]{
+    margin: 30px 0;
+    font-size: 0.7rem;
+    background: none;
+    border: 5px solid white;
+    border-radius: 5px;
+    color: white;
+    padding: 10px 25px;
+    outline: none;
+    cursor: pointer;
+}
+
+input[type=button]:hover{
+    background: rgb(37, 37, 37);
+}
+
+.results-container{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between
+}
+
+.results-container .user p:first-of-type, .results-container .cpu p:first-of-type{
+    color: red;
+}
+
+.result{
+    margin-top: 75px;
+}
+
+.result span{
+    color: green;
+}

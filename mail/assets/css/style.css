@@ -42,7 +42,7 @@ input[type=button]{
 }
 
 input[type=button]:hover{
-    background: rgb(37, 37, 37);;
+    background: rgb(37, 37, 37);
 }
 
 .textcontainer h1{
